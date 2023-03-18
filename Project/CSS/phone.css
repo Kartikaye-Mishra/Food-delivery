@@ -1,0 +1,94 @@
+/* body{
+    background-color: red;
+} */
+
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    
+}
+.logo {
+    width: 65px;
+    height: 40px;
+    margin: 3px 18px;
+}
+#navbar ul li a {
+    font-size: 15px;
+    padding: 0px 3px;
+    margin: 1px;
+}
+/* Home section */
+/* .divhome{
+    margin-bottom: 5px;
+} */
+#home{
+    /* height: fit-content; */
+    height: 280px;
+}
+#home::before{
+    height: 45%;/*ye dikkat de rha h*/
+    height: 360px;
+    /* height: 52vh; */
+}
+#home h1{
+    color: white;
+    font-size: 25px;
+    padding: 2px 5px;
+    margin: 5px 5px;
+}
+
+#home p{
+    color: white;
+    font-size: 13px;
+    margin: 5px 5px;
+}
+
+.btn{
+    font-size: 0.8rem;
+}
+
+/* Services section */
+.services-container{
+    margin: 5px;
+}
+#services{
+    flex-direction: column;
+
+}
+.box p{
+    font-size: 0.9rem;
+} 
+
+/* Client section */
+
+.clients{
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.client-box {
+    margin: 7px 55px;
+    padding: 3px 10px;
+}
+.clients img{
+    height: 30px;
+}
+
+/* Contact-US section */
+#contact-us{
+    margin-top: 110px;
+}
+#contact-us form{
+    width:80%;
+}
+
+
+/* Footer */
+
+
+/* Utility Classes */
+.h1_primary{
+    font-size: 20px;
+    
+}
